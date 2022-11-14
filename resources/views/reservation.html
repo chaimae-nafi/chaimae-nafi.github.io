@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- index.html  Tue, 07 Jan 2020 03:35:33 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+<title>MATRIX</title>
+
+<!-- General CSS Files -->
+<link rel="stylesheet" href="assets/modules/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/modules/fontawesome/css/all.min.css">
+
+<!-- CSS Libraries -->
+<link rel="stylesheet" href="assets/modules/jqvmap/dist/jqvmap.min.css">
+<link rel="stylesheet" href="assets/modules/summernote/summernote-bs4.css">
+<link rel="stylesheet" href="assets/modules/owlcarousel2/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/modules/owlcarousel2/dist/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+<!-- Template CSS -->
+<link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="stylesheet" href="assets/css/components.min.css">
+
+</head>
+<body class="layout-4">
+<!-- Page Loader -->
+<div class="page-loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+<div id="app">
+    <div class="main-wrapper main-wrapper-1">
+        <div class="navbar-bg"></div>
+        
+        <!-- Start app top navbar -->
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <form class="form-inline mr-auto">
+                <ul class="navbar-nav mr-3">
+                    <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+                    <li><a href="#" data-toggle="search" class="nav-link nav-link-lg d-sm-none"><i class="fas fa-search"></i></a></li>
+                </ul>
+                
+                <div class="search-element">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="250">
+                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                    <div class="search-backdrop"></div>
+                    <div class="search-result">
+                        <div class="search-header">Histories</div>
+                        <div class="search-item">
+                            <a href="#">How to Used HTML in Laravel</a>
+                            <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+                        </div>
+                        <div class="search-item">
+                            <a href=target="_black">Admincraft Portfolio</a>
+                            <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+                        </div>
+                        <div class="search-item">
+                            <a href="#">MATRIX</a>
+                            <a href="#" class="search-close"><i class="fas fa-times"></i></a>
+                        </div>
+                        <div class="search-header">Result</div>
+                        <div class="search-item">
+                            <a href="#">
+                                <img class="mr-3 rounded" width="30" src="assets/img/products/product-3-50.png" alt="product">
+                                oPhone 11 Pro
+                            </a>
+                        </div>
+                        <div class="search-item">
+                            <a href="#">
+                                <img class="mr-3 rounded" width="30" src="assets/img/products/product-2-50.png" alt="product">
+                                Drone Zx New Gen-3
+                            </a>
+                        </div>
+                        <div class="search-item">
+                            <a href="#">
+                                <img class="mr-3 rounded" width="30" src="assets/img/products/product-1-50.png" alt="product">
+                                Headphone JBL
+                            </a>
+                        </div>
+                        <div class="search-header">Projects</div>
+                        <div class="search-item">
+                            <a href= target="_black">
+                                <div class="search-icon bg-danger text-white mr-3"><i class="fas fa-code"></i></div>
+                                Epice Laravel - Admin 
+                            </a>
+                        </div>
+                        <div class="search-item">
+                            <a href= target="_black">
+                                <div class="search-icon bg-primary text-white mr-3"><i class="fas fa-laptop"></i></div>
+                                Soccer - Admin 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <ul class="navbar-nav navbar-right">
+                <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
+                    <div class="dropdown-menu dropdown-list dropdown-menu-right">
+                    <div class="dropdown-header">Messages
+                        <div class="float-right">
+                            <a href="#">Mark All As Read</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-list-content dropdown-list-message">
+                        <a href="#" class="dropdown-item dropdown-item-unread">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle">
+                                <div class="is-online"></div>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Kusnaedi</b>
+                                <p>Hello, Bro!</p>
+                                <div class="time">10 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item dropdown-item-unread">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-2.png" class="rounded-circle">
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Dedik Sugiharto</b>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                                <div class="time">12 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item dropdown-item-unread">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-3.png" class="rounded-circle">
+                                <div class="is-online"></div>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Agung Ardiansyah</b>
+                                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <div class="time">12 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-4.png" class="rounded-circle">
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Ardian Rahardiansyah</b>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit ess</p>
+                                <div class="time">16 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-avatar">
+                                <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle">
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Alfa Zulkarnain</b>
+                                <p>Exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                                <div class="time">Yesterday</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="dropdown-footer text-center">
+                        <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    </div>
+                </li>
+                <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
+                    <div class="dropdown-menu dropdown-list dropdown-menu-right">
+                    <div class="dropdown-header">Notifications
+                        <div class="float-right">
+                            <a href="#">Mark All As Read</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-list-content dropdown-list-icons">
+                        <a href="#" class="dropdown-item dropdown-item-unread">
+                            <div class="dropdown-item-icon bg-primary text-white">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="dropdown-item-desc">   update is available now!
+                                <div class="time text-primary">2 Min Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-icon bg-info text-white">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>You</b> and <b>Dedik Sugiharto</b> are now friends
+                                <div class="time">10 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-icon bg-success text-white">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                <b>Kusnaedi</b> has moved task <b>Fix bug header</b> to <b>Done</b>
+                                <div class="time">12 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-icon bg-danger text-white">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                Low disk space. Let's clean it!
+                                <div class="time">17 Hours Ago</div>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            <div class="dropdown-item-icon bg-info text-white">
+                                <i class="fas fa-bell"></i>
+                            </div>
+                            <div class="dropdown-item-desc">
+                                Welcome to MATRIX
+                                <div class="time">Yesterday</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="dropdown-footer text-center">
+                        <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                    <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+                    <div class="d-sm-none d-lg-inline-block">Hi, MATRIX</div></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-title">Logged in 5 min ago</div>
+                        <a href="features-profile.html" class="dropdown-item has-icon"><i class="far fa-user"></i> Profile</a>
+                        <a href="features-activities.html" class="dropdown-item has-icon"><i class="fas fa-bolt"></i> Activities</a>
+                        <a href="features-settings.html" class="dropdown-item has-icon"><i class="fas fa-cog"></i> Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item has-icon text-danger"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Start main left sidebar menu -->
+        <div class="main-sidebar sidebar-style-3">
+            <aside id="sidebar-wrapper">
+                <div class="sidebar-brand">
+                    <img src="assets/img/logo1.png"  href="entre.html" style="width: 170px; margin: -49px; height: 50px;" >                </div>
+                <div class="sidebar-brand sidebar-brand-sm">
+                    <a href="entre.html">MT</a>
+                </div>
+                <ul class="sidebar-menu">
+                    <li class="menu-header">Dashboard</li>
+                    <li class="dropdown active">
+                        <a href="" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link" href="reservation.html">Reservation</a></li>
+                            <li><a class="nav-link" href="listereservation.html">Liste des d'adhesion</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Planning</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link" href="planingpro.html">Proffeseur</a></li>
+                            <li><a class="nav-link " href="planinglang.html">Langue</a></li>
+                            <li><a class="nav-link " href="planingnive.html">Niveaux</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Blocage</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link" href="bloc.html">Blocage</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </aside>
+        </div>
+
+        <!-- Start app main Content -->
+            <div class="main-content">
+                <section class="section" >
+                    <div class="card-body">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item"><a class="nav-link active" href="reservation.html">Reservation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="listereservation.html">Liste des d'adhesion</a></li>
+                        </ul>
+                    </div>
+                    <div class="row" >
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div class="card" >
+                                <div class="card-header">
+                                    <h4>Fiche d'adhesion</h4>
+                                </div>
+                                <div class="card-body"style="height: 234px;">
+                                    <div class="alert alert-info">
+                                        <b>Note!</b> entre le n d'adhesion
+                                    </div>
+                                    <div class="form-row" style="padding-top: 27px;">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputEmail4">N d'adhesion</label>
+                                            <input type="adhesion" class="form-control" id="inputadhesion" placeholder="N d'adhesion">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPassword4">Date</label>
+                                            <input type="Date" class="form-control" id="inputDate" placeholder="Date">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div class="card">
+                                <div class="card-body" style="height: 302px;">
+                                    <div class="form-group">
+                                        <label>Renouvellement</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Parrainage</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Type de cours</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="height: 395px; width: 200002px;margin-bottom: 13px;">
+                            <div class="card-header">
+                                <h4>Informations Benificiare</h4>
+                            </div>
+                            <div class="card-body">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputNom">Nom Prenom</label>
+                                            <input type="Nom" class="form-control" id="inputNom" placeholder="Nom">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPrenom">Fonction</label>
+                                            <input type="Fonction" class="form-control" id="inputFonction" placeholder="Fonction">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputNom">Date et lieu de naissance </label>
+                                            <input type="Date naissanve" class="form-control" id="inputDate" placeholder="Date et lieu de naissance">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPrenom">adresse</label>
+                                            <input type="adresse" class="form-control" id="inputadresse" placeholder="adresse">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputNom">Tel/GSM</label>
+                                            <input type="Tel" class="form-control" id="inputTel" placeholder="Tel">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPrenom">Email</label>
+                                            <input type="Email" class="form-control" id="inputEmail" placeholder="Email">
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="card" style="height: 395px; width: 200002px;margin-bottom: 13px;">
+                            <div class="card-header">
+                                <h4>Informations du tuteur</h4>
+                            </div>
+                            <div class="card-body">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputNom">Nom Prenom</label>
+                                            <input type="Nom" class="form-control" id="inputNom" placeholder="Nom">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPrenom">Fonction</label>
+                                            <input type="Fonction" class="form-control" id="inputFonction" placeholder="Fonction">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputNom">Date et lieu de naissance </label>
+                                            <input type="Date naissanve" class="form-control" id="inputDate" placeholder="Date et lieu de naissance">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPrenom">adresse</label>
+                                            <input type="adresse" class="form-control" id="inputadresse" placeholder="adresse">
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputNom">Tel/GSM</label>
+                                            <input type="Tel" class="form-control" id="inputTel" placeholder="Tel">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="inputPrenom">Email</label>
+                                            <input type="Email" class="form-control" id="inputEmail" placeholder="Email">
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 1261px;margin-bottom: 13px;">
+                            <div class="card-header">
+                                <h4>Type d'inscription</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="table-responsive">
+                                    <table class="table table-striped v_center">
+                                        <tr>
+                                            <th>VMCL</th>
+                                            <th>VMCL</th>
+                                            <th>Autres</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <label for="checkbox-1" class="custom-control-label">&nbsp;Anglais</label>
+                                                <input type="Anglais" class="form-control" id="inputNom" placeholder="...">
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;VMCL Start {3 mois}</label>
+                                                    <input type="VMCL" class="form-control" id="inputNom" placeholder="...">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                        <input type="we" class="form-control" id="inputNom" placeholder="...">
+                                                    </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <label for="checkbox-1" class="custom-control-label">&nbsp;Francais</label>
+                                                    <input type="Francais" class="form-control" id="inputNom" placeholder="...">
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;VMCL Complet {6 mois}</label>
+                                                    <input type="VMCL" class="form-control" id="inputNom" placeholder="...">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                                                        <input type="we" class="form-control" id="inputNom" placeholder="...">
+                                                    </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 1261px;margin-bottom: 13px;">
+                            <div class="card-header">
+                                <h4>Prix d'adhesion</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="table-responsive">
+                                    <table class="table table-striped v_center">
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <label for="checkbox-1" class="custom-control-label">&nbsp;1er contact</label>
+                                                <input type="Anglais" class="form-control" id="inputNom" placeholder="1er contact">
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;1er depot</label>
+                                                    <input type="VMCL" class="form-control" id="inputNom" placeholder="1er depot">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;Cheque</label>
+                                                        <input type="we" class="form-control" id="inputNom" placeholder="Cheque">
+                                                    </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;Espece</label>
+                                                    <input type="we" class="form-control" id="inputNom" placeholder="Espece">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <label for="checkbox-1" class="custom-control-label">&nbsp;2eme contact</label>
+                                                <input type="Anglais" class="form-control" id="inputNom" placeholder="1er contact">
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;2eme depot</label>
+                                                    <input type="VMCL" class="form-control" id="inputNom" placeholder="1er depot">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;Cheque</label>
+                                                        <input type="we" class="form-control" id="inputNom" placeholder="Cheque">
+                                                    </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;Espece</label>
+                                                    <input type="we" class="form-control" id="inputNom" placeholder="Espece">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <label for="checkbox-1" class="custom-control-label">&nbsp;Responsable</label>
+                                                <input type="Anglais" class="form-control" id="inputNom" placeholder="1er contact">
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;3eme depot</label>
+                                                    <input type="VMCL" class="form-control" id="inputNom" placeholder="1er depot">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;Cheque</label>
+                                                        <input type="we" class="form-control" id="inputNom" placeholder="Cheque">
+                                                    </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;Espece</label>
+                                                    <input type="we" class="form-control" id="inputNom" placeholder="Espece">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 1261px;margin-bottom: 13px;">
+                            <div class="card-header">
+                                <h4>Modalite de paiement</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="table-responsive">
+                                    <table class="table table-striped v_center">
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <a >Date</a>
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="date">
+                                                </div>
+                                            </td>       
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <a >Montant</a>
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Montant">
+                                                </div>
+                                            </td>       
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <a >Paye le</a>
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="Anglais" class="form-control" id="inputNom" placeholder="Paye">
+                                                </div>
+                                            </td>       
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="height: 197px; width: 200002px;margin-bottom: 13px;">
+                            <div class="card-header">
+                                <h4>Bon de formation</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <label for="inputNom">Recu le:</label>
+                                        <input type="Nom" class="form-control" id="inputNom" placeholder="Recu1">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputPrenom">Recu le:</label>
+                                        <input type="Fonction" class="form-control" id="inputFonction" placeholder="Recu2">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="inputPrenom">Recu le:</label>
+                                        <input type="Fonction" class="form-control" id="inputFonction" placeholder="Recu3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 1261px;margin-bottom: 13px;">
+                            <div class="card-header">
+                                <h4>Formation des langues :VMCL</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="table-responsive">
+                                    <table class="table table-striped v_center">
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;Francais</label>
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;Anglais</label>
+                                                    </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;Espagnol</label>
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;Autre</label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-striped v_center">
+                                        <tr>
+                                            <a >Mois de formation de langue a raison de :</a>
+                                            <p>1/une seance de cours de deux heurs {2h} en mini groupe</p>
+                                            <p >2/une seance d'ateliers de communication de deux heures {2h} en groupe duree de la formation</p>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;3 mois</label>
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                    <div class="custom-checkbox custom-control">
+                                                        <label for="checkbox-1" class="custom-control-label">&nbsp;6 mois</label>
+                                                    </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;9 mois</label>
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;12 mois</label>
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <label for="checkbox-1" class="custom-control-label">&nbsp;12 mois</label>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 1261px;margin-bottom: 13px;">
+                            <div class="card-header">
+                                <h4>Formation informatique</h4>
+                            </div>
+                            <div class="card-body p-0">
+                                <div class="table-responsive">
+                                    <table class="table table-striped v_center">
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <TH>VMCL START</TH>
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <TH>l'environnment windows - traitement de texte-tableurs-presentation-internet:
+                                                        <a>2 seances de 1h30/semaine en individuuel pendant 1 mois.</a>
+                                                        <a>2 seances de 1h30/semaine -atelier en groupe pendant 3 mois.</a></TH>
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <TH>vmcl ابدأ وحدات الوصول لمايكروسوفت لمدة شهرين من التدريب دورتان مدة كل منهما ساعة ونصف في الأسبوع لمدة 2</TH>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                            <div class="custom-checkbox custom-control">
+                                                <TH>VMCL COMPLET</TH>
+                                            </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <TH>les modules du vmcl start 
+                                                        microsft acces 2mois de formation2 seance de 1h30 / semaine pendant2
+                                                    </TH>
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <TH> vmcl ابدأ وحدات الوصول لمايكروسوفت لمدة شهرين من التدريب دورتان مدة كل منهما ساعة ونصف في الأسبوع لمدة 2</TH>
+                                                </div>
+                                            </td>
+                                        </tr>>
+                                        </tr>
+                                    </table>
+                                    <table class="table table-striped v_center">
+                                        <tr>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <TH>Module specifique</TH>
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="we" class="form-control" id="inputNom" placeholder="Espece">
+                                                </div>
+                                            </td>
+                                            <td class="p-0 text-center">
+                                                <div class="custom-checkbox custom-control">
+                                                    <input type="we" class="form-control" id="inputNom" placeholder="Espece">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="height: 111px; width: 200002px;margin-bottom: 13px;">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="inputtransfert">Frais de transfert</label>
+                                    <input type="text" class="form-control" id="inputAddress" placeholder="Frais de transfert">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>         
+            </div>
+
+<!-- General JS Scripts -->
+<script src="assets/bundles/lib.vendor.bundle.js"></script>
+<script src="js/CodiePie.js"></script>
+
+<!-- JS Libraies -->
+<script src="assets/modules/cleave-js/dist/cleave.min.js"></script>
+<script src="assets/modules/cleave-js/dist/addons/cleave-phone.us.js"></script>
+<script src="assets/modules/jquery-pwstrength/jquery.pwstrength.min.js"></script>
+<script src="assets/modules/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script src="assets/modules/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+<script src="assets/modules/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+<script src="assets/modules/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
+<script src="assets/modules/select2/dist/js/select2.full.min.js"></script>
+<script src="assets/modules/jquery-selectric/jquery.selectric.min.js"></script>
+
+<!-- Page Specific JS File -->
+<script src="js/page/forms-advanced-forms.js"></script>
+
+<!-- Template JS File -->
+<script src="js/scripts.js"></script>
+<script src="js/custom.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+</body>
+
+<!-- index.html  Tue, 07 Jan 2020 03:35:33 GMT -->
+</html>
